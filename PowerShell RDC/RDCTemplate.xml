@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RDCMan schemaVersion="1"> 
+    <version>2.2</version> 
+    <file> 
+        <properties> 
+            <name></name> 
+            <expanded>True</expanded> 
+            <comment /> 
+            <logonCredentials inherit="None"> 
+                <userName></userName> 
+                <domain></domain> 
+                <password storeAsClearText="False"></password> 
+            </logonCredentials> 
+            <connectionSettings inherit="FromParent" /> 
+            <gatewaySettings inherit="FromParent" /> 
+            <remoteDesktop inherit="FromParent" /> 
+            <localResources inherit="FromParent" /> 
+            <securitySettings inherit="FromParent" /> 
+            <displaySettings inherit="FromParent" /> 
+        </properties> 
+		<group> 
+            <properties> 
+                <name></name> 
+                <expanded>True</expanded> 
+                <comment /> 
+                <logonCredentials inherit="FromParent" /> 
+                <connectionSettings inherit="FromParent" /> 
+                <gatewaySettings inherit="None"> 
+                    <userName></userName> 
+                    <domain></domain> 
+                    <password storeAsClearText="False" /> 
+                    <enabled>False</enabled> 
+                    <hostName /> 
+                    <logonMethod>4</logonMethod> 
+                    <localBypass>False</localBypass> 
+                    <credSharing>False</credSharing> 
+                </gatewaySettings> 
+                <remoteDesktop inherit="FromParent" /> 
+                <localResources inherit="FromParent" /> 
+                <securitySettings inherit="FromParent" /> 
+                <displaySettings inherit="FromParent" /> 
+            </properties> 
+            <server> 
+                <name></name> 
+                <displayName></displayName> 
+                <comment /> 
+                <logonCredentials inherit="FromParent" /> 
+                <connectionSettings inherit="FromParent" /> 
+                <gatewaySettings inherit="FromParent" /> 
+                <remoteDesktop inherit="FromParent" /> 
+                <localResources inherit="FromParent" /> 
+                <securitySettings inherit="FromParent" /> 
+                <displaySettings inherit="FromParent" /> 
+            </server> 
+        </group>
+    </file> 
+</RDCMan>
