@@ -14,7 +14,6 @@ function Get-EsxNicDriver () {
     $EnicVer = $EnicRaw.Split(',') | Select-Object -First 1
     $Enic = $EnicVer.Replace('Version ','')
     
-
     $FnicRaw = ($EsxCli.System.Module.Get('fnic') | Select-Object Version).Version
     $FnicVer = $FnicRaw.Split(',') | Select-Object -First 1
     $Fnic = $FnicVer.Replace('Version ','')
